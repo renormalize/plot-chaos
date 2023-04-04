@@ -1,2 +1,5 @@
 # main file to generate the bifurcation diagrams, and the cobweb diagrams
-import numpy as np
+from plot import plot_bifurcation, plot_logistic
+
+# plot_logistic()
+# plot_bifurcation()
