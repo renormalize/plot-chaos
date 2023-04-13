@@ -1,6 +1,8 @@
 import numpy as np
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+from cycler import cycler
 from matplotlib import collections as mc
 from sequence import *
 
@@ -61,7 +63,7 @@ def plot_cobweb():
 
     from params import cobweb_params as c
 
-    plt.rcParams['axes.prop_cycle'] = plt.cycler(color=["g"])
+    mpl.rcParams['axes.prop_cycle'] = cycler(color=['g'])
 
     fig, ax = plt.subplots()
     ax.set_xlim(0.0, 1.0)
