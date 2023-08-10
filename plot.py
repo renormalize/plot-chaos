@@ -6,6 +6,7 @@ from cycler import cycler
 from matplotlib import collections as mc
 from sequence import *
 
+
 # Plots the Logistic Map sequence for the parameters set in bifurcation_params.py
 def plot_logistic():
 
