@@ -98,4 +98,3 @@ def plot_cobweb():
     ax.add_collection(lc)
 
     plt.show()
-

@@ -14,7 +14,6 @@ def logistic_iter(r: np.float64, x_0: np.float64, N: int):
     return x
 
 
-
 # r         : the growth rate
 # x_0       : the inital seed
 # init_iter : the number of iterations which encapsulate the transient behaviour
@@ -39,4 +38,3 @@ def liapunov(r: np.float64, x_0: np.float64, init_iter: int, con_iter: int):
        sum += np.log(np.abs(r - 2*r*x_i))
     
     return sum/con_iter
-

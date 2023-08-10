@@ -1,3 +1,4 @@
+# Default parameters for the cobweb diagram
 import numpy as np
 
 # number_iterations : Number of iterations considered for the cobweb

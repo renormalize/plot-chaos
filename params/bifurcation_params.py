@@ -1,3 +1,4 @@
+# Default parameters for bifurcation diagram
 import numpy as np
 
 # inital_iterations     : the number of iterations which encapsulate the transient behaviour
